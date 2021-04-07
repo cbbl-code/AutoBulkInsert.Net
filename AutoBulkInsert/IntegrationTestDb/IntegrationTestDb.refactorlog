@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="3b2f7179-bdec-4fad-9828-050395c15b27" ChangeDateTime="03/28/2021 22:02:16">
+    <Property Name="ElementName" Value="[dbo].[SampleData].[Description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SampleData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Country" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="616944f8-85ad-40a9-ad66-1e1789b10753" ChangeDateTime="03/28/2021 22:03:02">
+    <Property Name="ElementName" Value="[dbo].[SampleData].[Country]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SampleData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="38803831-61e2-456d-b859-4bf4e24d9992" ChangeDateTime="03/28/2021 22:03:10">
+    <Property Name="ElementName" Value="[dbo].[SampleData].[IsoCountryCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SampleData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Surname" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e2391e3-251e-4a5e-bd88-a5ebae002f0b" ChangeDateTime="03/28/2021 22:03:45">
+    <Property Name="ElementName" Value="[dbo].[SampleData].[DateOFBirth]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SampleData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateOfBirth" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8f5e3f56-8e52-4492-bee2-bb05dcdf3dc5" ChangeDateTime="03/28/2021 22:10:39">
+    <Property Name="ElementName" Value="[dbo].[SampleData].[MaidenNAme]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SampleData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaidenName" />
+  </Operation>
+</Operations>
